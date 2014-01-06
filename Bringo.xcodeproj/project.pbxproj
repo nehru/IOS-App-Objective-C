@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58188E381742CD32007EF307 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58188E371742CD32007EF307 /* FacebookViewController.m */; };
+		58188E431742F126007EF307 /* cube2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58188E421742F126007EF307 /* cube2.png */; };
+		58188E451742F1B5007EF307 /* FacebookSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 58188E441742F1B5007EF307 /* FacebookSDKResources.bundle */; };
+		58188E48174310C6007EF307 /* FacebookAppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58188E47174310C6007EF307 /* FacebookAppCell.m */; };
+		5821F21217434EBD002F1C54 /* mphoto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5821F21117434EBD002F1C54 /* mphoto.jpg */; };
+		5821F2141743509A002F1C54 /* tphoto.png in Resources */ = {isa = PBXBuildFile; fileRef = 5821F2131743509A002F1C54 /* tphoto.png */; };
+		5828BA03173EB52600E8E660 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5828BA02173EB52600E8E660 /* MainStoryboard_iPhone.storyboard */; };
+		5828BA06173ED7CD00E8E660 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5828BA05173ED7CD00E8E660 /* Photo.m */; };
+		5828BA0C173EDAC600E8E660 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828BA07173EDAC600E8E660 /* Accounts.framework */; };
+		5828BA0D173EDAC600E8E660 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828BA08173EDAC600E8E660 /* AdSupport.framework */; };
+		5828BA0E173EDAC600E8E660 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828BA09173EDAC600E8E660 /* AssetsLibrary.framework */; };
+		5828BA0F173EDAC600E8E660 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828BA0A173EDAC600E8E660 /* Security.framework */; };
+		5828BA10173EDAC600E8E660 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828BA0B173EDAC600E8E660 /* Social.framework */; };
+		5828BA12173EDAD300E8E660 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828BA11173EDAD300E8E660 /* libsqlite3.0.dylib */; };
+		5828BA14173EDAE000E8E660 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5828BA13173EDAE000E8E660 /* QuartzCore.framework */; };
+		5828BA48173F0AA500E8E660 /* TwitterAppCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5828BA47173F0AA500E8E660 /* TwitterAppCell.m */; };
+		5828BA4C173F348000E8E660 /* fan8b.png in Resources */ = {isa = PBXBuildFile; fileRef = 5828BA49173F348000E8E660 /* fan8b.png */; };
+		5828BA4D173F348000E8E660 /* fan9.png in Resources */ = {isa = PBXBuildFile; fileRef = 5828BA4A173F348000E8E660 /* fan9.png */; };
+		5828BA4E173F348000E8E660 /* fan9a.png in Resources */ = {isa = PBXBuildFile; fileRef = 5828BA4B173F348000E8E660 /* fan9a.png */; };
+		582EA7841749AC9400DADBDE /* BriTwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EA7831749AC9400DADBDE /* BriTwitterViewController.m */; };
+		582EA7871749B08200DADBDE /* BriFacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EA7861749B08200DADBDE /* BriFacebookViewController.m */; };
+		582EA78A1749C3FD00DADBDE /* BriTwitterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EA7891749C3FD00DADBDE /* BriTwitterTableViewCell.m */; };
+		582EA78D1749E62A00DADBDE /* TwitteriPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582EA78C1749E62A00DADBDE /* TwitteriPadDetailViewController.m */; };
+		584F3D1717416DEB00A93041 /* TwitterDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 584F3D1617416DEB00A93041 /* TwitterDisplayViewController.m */; };
+		5871993D1746C8410090D6A4 /* FacebookDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871993C1746C8410090D6A4 /* FacebookDisplayViewController.m */; };
+		587199451746F4370090D6A4 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 587199441746F4370090D6A4 /* facebook.png */; };
+		587199471746F49D0090D6A4 /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 587199461746F49D0090D6A4 /* twitter.png */; };
+		5871994B174701540090D6A4 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = 5871994A174701540090D6A4 /* Global.m */; };
+		587AD02C173DE47800C9C52C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587AD02B173DE47800C9C52C /* UIKit.framework */; };
+		587AD02E173DE47800C9C52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587AD02D173DE47800C9C52C /* Foundation.framework */; };
+		587AD030173DE47800C9C52C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587AD02F173DE47800C9C52C /* CoreGraphics.framework */; };
+		587AD036173DE47800C9C52C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 587AD034173DE47800C9C52C /* InfoPlist.strings */; };
+		587AD038173DE47800C9C52C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 587AD037173DE47800C9C52C /* main.m */; };
+		587AD03C173DE47800C9C52C /* BriAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 587AD03B173DE47800C9C52C /* BriAppDelegate.m */; };
+		587AD03E173DE47800C9C52C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 587AD03D173DE47800C9C52C /* Default.png */; };
+		587AD040173DE47800C9C52C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587AD03F173DE47800C9C52C /* Default@2x.png */; };
+		587AD042173DE47800C9C52C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587AD041173DE47800C9C52C /* Default-568h@2x.png */; };
+		587AD048173DE47800C9C52C /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 587AD046173DE47800C9C52C /* MainStoryboard_iPad.storyboard */; };
+		587AD04D173DE47800C9C52C /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 587AD04C173DE47800C9C52C /* first.png */; };
+		587AD04F173DE47800C9C52C /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587AD04E173DE47800C9C52C /* first@2x.png */; };
+		587AD054173DE47800C9C52C /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 587AD053173DE47800C9C52C /* second.png */; };
+		587AD056173DE47800C9C52C /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 587AD055173DE47800C9C52C /* second@2x.png */; };
+		587AD05E173DE47800C9C52C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587AD05D173DE47800C9C52C /* SenTestingKit.framework */; };
+		587AD05F173DE47800C9C52C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587AD02B173DE47800C9C52C /* UIKit.framework */; };
+		587AD060173DE47800C9C52C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 587AD02D173DE47800C9C52C /* Foundation.framework */; };
+		587AD068173DE47800C9C52C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 587AD066173DE47800C9C52C /* InfoPlist.strings */; };
+		587AD06B173DE47800C9C52C /* BringoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 587AD06A173DE47800C9C52C /* BringoTests.m */; };
+		587AD0D8173E025100C9C52C /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587AD0D7173E025100C9C52C /* TwitterViewController.m */; };
+		587AD0DA173E2CAE00C9C52C /* 12650188.gif in Resources */ = {isa = PBXBuildFile; fileRef = 587AD0D9173E2CAE00C9C52C /* 12650188.gif */; };
+		5892DBB4174AA2E90033E01B /* FacebookiPadDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892DBB3174AA2E80033E01B /* FacebookiPadDetailViewController.m */; };
+		5892DBB7174AA8B30033E01B /* BriFacebookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5892DBB6174AA8B30033E01B /* BriFacebookTableViewCell.m */; };
+		58BDCF1517440A9C00F10629 /* FacebookPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BDCF1417440A9C00F10629 /* FacebookPhoto.m */; };
+		58BDCF271744745900F10629 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BDCF25174472A200F10629 /* FacebookSDK.framework */; };
+		58BDCF2917447E0A00F10629 /* square1.png in Resources */ = {isa = PBXBuildFile; fileRef = 58BDCF2817447E0A00F10629 /* square1.png */; };
+		58BDCF2B17447E9400F10629 /* square2.png in Resources */ = {isa = PBXBuildFile; fileRef = 58BDCF2A17447E9400F10629 /* square2.png */; };
+		58C500321741B9BA001CC5F6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C500311741B9BA001CC5F6 /* SystemConfiguration.framework */; };
+		58F9FCCC1750612300608D3F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F9FCCB1750612300608D3F /* Icon.png */; };
+		58F9FCD2175066A600608D3F /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F9FCCD175066A600608D3F /* Icon-72.png */; };
+		58F9FCD3175066A600608D3F /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F9FCCE175066A600608D3F /* Icon-72@2x.png */; };
+		58F9FCD4175066A600608D3F /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F9FCCF175066A600608D3F /* Icon-114.png */; };
+		58F9FCD5175066A600608D3F /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F9FCD0175066A600608D3F /* Icon-Small-50.png */; };
+		58F9FCD6175066A600608D3F /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F9FCD1175066A600608D3F /* Icon-Small.png */; };
+		58F9FCD8175066AE00608D3F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 58F9FCD7175066AE00608D3F /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		587AD061173DE47800C9C52C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 587AD020173DE47800C9C52C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587AD027173DE47800C9C52C;
+			remoteInfo = Bringo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		58188E361742CD32007EF307 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		58188E371742CD32007EF307 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		58188E421742F126007EF307 /* cube2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cube2.png; sourceTree = "<group>"; };
+		58188E441742F1B5007EF307 /* FacebookSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = FacebookSDKResources.bundle; sourceTree = "<group>"; };
+		58188E46174310C6007EF307 /* FacebookAppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookAppCell.h; sourceTree = "<group>"; };
+		58188E47174310C6007EF307 /* FacebookAppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookAppCell.m; sourceTree = "<group>"; };
+		5821F21117434EBD002F1C54 /* mphoto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mphoto.jpg; sourceTree = "<group>"; };
+		5821F2131743509A002F1C54 /* tphoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tphoto.png; sourceTree = "<group>"; };
+		5828BA02173EB52600E8E660 /* MainStoryboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		5828BA04173ED7CD00E8E660 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		5828BA05173ED7CD00E8E660 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		5828BA07173EDAC600E8E660 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		5828BA08173EDAC600E8E660 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		5828BA09173EDAC600E8E660 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5828BA0A173EDAC600E8E660 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		5828BA0B173EDAC600E8E660 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		5828BA11173EDAD300E8E660 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		5828BA13173EDAE000E8E660 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		5828BA46173F0AA500E8E660 /* TwitterAppCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterAppCell.h; sourceTree = "<group>"; };
+		5828BA47173F0AA500E8E660 /* TwitterAppCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterAppCell.m; sourceTree = "<group>"; };
+		5828BA49173F348000E8E660 /* fan8b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fan8b.png; sourceTree = "<group>"; };
+		5828BA4A173F348000E8E660 /* fan9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fan9.png; sourceTree = "<group>"; };
+		5828BA4B173F348000E8E660 /* fan9a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fan9a.png; sourceTree = "<group>"; };
+		582EA7821749AC9400DADBDE /* BriTwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BriTwitterViewController.h; sourceTree = "<group>"; };
+		582EA7831749AC9400DADBDE /* BriTwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BriTwitterViewController.m; sourceTree = "<group>"; };
+		582EA7851749B08200DADBDE /* BriFacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BriFacebookViewController.h; sourceTree = "<group>"; };
+		582EA7861749B08200DADBDE /* BriFacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BriFacebookViewController.m; sourceTree = "<group>"; };
+		582EA7881749C3FD00DADBDE /* BriTwitterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BriTwitterTableViewCell.h; sourceTree = "<group>"; };
+		582EA7891749C3FD00DADBDE /* BriTwitterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BriTwitterTableViewCell.m; sourceTree = "<group>"; };
+		582EA78B1749E62A00DADBDE /* TwitteriPadDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitteriPadDetailViewController.h; path = ../TwitteriPadDetailViewController.h; sourceTree = "<group>"; };
+		582EA78C1749E62A00DADBDE /* TwitteriPadDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwitteriPadDetailViewController.m; path = ../TwitteriPadDetailViewController.m; sourceTree = "<group>"; };
+		584F3D1517416DEB00A93041 /* TwitterDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterDisplayViewController.h; sourceTree = "<group>"; };
+		584F3D1617416DEB00A93041 /* TwitterDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterDisplayViewController.m; sourceTree = "<group>"; };
+		5871993B1746C8410090D6A4 /* FacebookDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookDisplayViewController.h; sourceTree = "<group>"; };
+		5871993C1746C8410090D6A4 /* FacebookDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookDisplayViewController.m; sourceTree = "<group>"; };
+		587199441746F4370090D6A4 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
+		587199461746F49D0090D6A4 /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		58719949174701540090D6A4 /* Global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		5871994A174701540090D6A4 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
+		587AD028173DE47800C9C52C /* Bringo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bringo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		587AD02B173DE47800C9C52C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		587AD02D173DE47800C9C52C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		587AD02F173DE47800C9C52C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		587AD033173DE47800C9C52C /* Bringo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bringo-Info.plist"; sourceTree = "<group>"; };
+		587AD035173DE47800C9C52C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		587AD037173DE47800C9C52C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		587AD039173DE47800C9C52C /* Bringo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bringo-Prefix.pch"; sourceTree = "<group>"; };
+		587AD03A173DE47800C9C52C /* BriAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BriAppDelegate.h; sourceTree = "<group>"; };
+		587AD03B173DE47800C9C52C /* BriAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BriAppDelegate.m; sourceTree = "<group>"; };
+		587AD03D173DE47800C9C52C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		587AD03F173DE47800C9C52C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		587AD041173DE47800C9C52C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		587AD047173DE47800C9C52C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		587AD04C173DE47800C9C52C /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = first.png; path = Bringo/first.png; sourceTree = "<group>"; };
+		587AD04E173DE47800C9C52C /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "first@2x.png"; path = "Bringo/first@2x.png"; sourceTree = "<group>"; };
+		587AD053173DE47800C9C52C /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = second.png; path = Bringo/second.png; sourceTree = "<group>"; };
+		587AD055173DE47800C9C52C /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "second@2x.png"; path = "Bringo/second@2x.png"; sourceTree = "<group>"; };
+		587AD05C173DE47800C9C52C /* BringoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BringoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		587AD05D173DE47800C9C52C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		587AD065173DE47800C9C52C /* BringoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BringoTests-Info.plist"; sourceTree = "<group>"; };
+		587AD067173DE47800C9C52C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		587AD069173DE47800C9C52C /* BringoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BringoTests.h; sourceTree = "<group>"; };
+		587AD06A173DE47800C9C52C /* BringoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BringoTests.m; sourceTree = "<group>"; };
+		587AD0D6173E025100C9C52C /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		587AD0D7173E025100C9C52C /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		587AD0D9173E2CAE00C9C52C /* 12650188.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 12650188.gif; sourceTree = "<group>"; };
+		5892DBB2174AA2E80033E01B /* FacebookiPadDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookiPadDetailViewController.h; sourceTree = "<group>"; };
+		5892DBB3174AA2E80033E01B /* FacebookiPadDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookiPadDetailViewController.m; sourceTree = "<group>"; };
+		5892DBB5174AA8B30033E01B /* BriFacebookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BriFacebookTableViewCell.h; sourceTree = "<group>"; };
+		5892DBB6174AA8B30033E01B /* BriFacebookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BriFacebookTableViewCell.m; sourceTree = "<group>"; };
+		58BDCF1317440A9C00F10629 /* FacebookPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookPhoto.h; sourceTree = "<group>"; };
+		58BDCF1417440A9C00F10629 /* FacebookPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookPhoto.m; sourceTree = "<group>"; };
+		58BDCF25174472A200F10629 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		58BDCF2817447E0A00F10629 /* square1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square1.png; sourceTree = "<group>"; };
+		58BDCF2A17447E9400F10629 /* square2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square2.png; sourceTree = "<group>"; };
+		58C500311741B9BA001CC5F6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		58F9FCCB1750612300608D3F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		58F9FCCD175066A600608D3F /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		58F9FCCE175066A600608D3F /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		58F9FCCF175066A600608D3F /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		58F9FCD0175066A600608D3F /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		58F9FCD1175066A600608D3F /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		58F9FCD7175066AE00608D3F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		587AD025173DE47800C9C52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58BDCF271744745900F10629 /* FacebookSDK.framework in Frameworks */,
+				58C500321741B9BA001CC5F6 /* SystemConfiguration.framework in Frameworks */,
+				5828BA14173EDAE000E8E660 /* QuartzCore.framework in Frameworks */,
+				5828BA12173EDAD300E8E660 /* libsqlite3.0.dylib in Frameworks */,
+				5828BA0C173EDAC600E8E660 /* Accounts.framework in Frameworks */,
+				5828BA0D173EDAC600E8E660 /* AdSupport.framework in Frameworks */,
+				5828BA0E173EDAC600E8E660 /* AssetsLibrary.framework in Frameworks */,
+				5828BA0F173EDAC600E8E660 /* Security.framework in Frameworks */,
+				5828BA10173EDAC600E8E660 /* Social.framework in Frameworks */,
+				587AD02C173DE47800C9C52C /* UIKit.framework in Frameworks */,
+				587AD02E173DE47800C9C52C /* Foundation.framework in Frameworks */,
+				587AD030173DE47800C9C52C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587AD058173DE47800C9C52C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587AD05E173DE47800C9C52C /* SenTestingKit.framework in Frameworks */,
+				587AD05F173DE47800C9C52C /* UIKit.framework in Frameworks */,
+				587AD060173DE47800C9C52C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		587199481746FF720090D6A4 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				582EA7851749B08200DADBDE /* BriFacebookViewController.h */,
+				582EA7861749B08200DADBDE /* BriFacebookViewController.m */,
+				582EA7881749C3FD00DADBDE /* BriTwitterTableViewCell.h */,
+				582EA7891749C3FD00DADBDE /* BriTwitterTableViewCell.m */,
+				582EA7821749AC9400DADBDE /* BriTwitterViewController.h */,
+				582EA7831749AC9400DADBDE /* BriTwitterViewController.m */,
+				587AD046173DE47800C9C52C /* MainStoryboard_iPad.storyboard */,
+				582EA78B1749E62A00DADBDE /* TwitteriPadDetailViewController.h */,
+				582EA78C1749E62A00DADBDE /* TwitteriPadDetailViewController.m */,
+				5892DBB2174AA2E80033E01B /* FacebookiPadDetailViewController.h */,
+				5892DBB3174AA2E80033E01B /* FacebookiPadDetailViewController.m */,
+				5892DBB5174AA8B30033E01B /* BriFacebookTableViewCell.h */,
+				5892DBB6174AA8B30033E01B /* BriFacebookTableViewCell.m */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		587AD01F173DE47800C9C52C = {
+			isa = PBXGroup;
+			children = (
+				587AD0D5173E022000C9C52C /* Resources */,
+				587AD031173DE47800C9C52C /* Bringo */,
+				587AD063173DE47800C9C52C /* BringoTests */,
+				587AD02A173DE47800C9C52C /* Frameworks */,
+				587AD029173DE47800C9C52C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		587AD029173DE47800C9C52C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				587AD028173DE47800C9C52C /* Bringo.app */,
+				587AD05C173DE47800C9C52C /* BringoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		587AD02A173DE47800C9C52C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58BDCF25174472A200F10629 /* FacebookSDK.framework */,
+				58188E441742F1B5007EF307 /* FacebookSDKResources.bundle */,
+				58C500311741B9BA001CC5F6 /* SystemConfiguration.framework */,
+				5828BA13173EDAE000E8E660 /* QuartzCore.framework */,
+				5828BA11173EDAD300E8E660 /* libsqlite3.0.dylib */,
+				5828BA07173EDAC600E8E660 /* Accounts.framework */,
+				5828BA08173EDAC600E8E660 /* AdSupport.framework */,
+				5828BA09173EDAC600E8E660 /* AssetsLibrary.framework */,
+				5828BA0A173EDAC600E8E660 /* Security.framework */,
+				5828BA0B173EDAC600E8E660 /* Social.framework */,
+				587AD02B173DE47800C9C52C /* UIKit.framework */,
+				587AD02D173DE47800C9C52C /* Foundation.framework */,
+				587AD02F173DE47800C9C52C /* CoreGraphics.framework */,
+				587AD05D173DE47800C9C52C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		587AD031173DE47800C9C52C /* Bringo */ = {
+			isa = PBXGroup;
+			children = (
+				5892DBAE174A87A50033E01B /* Global */,
+				587199481746FF720090D6A4 /* iPad */,
+				5892DBAD174A879D0033E01B /* iPhone */,
+				587AD032173DE47800C9C52C /* Supporting Files */,
+			);
+			path = Bringo;
+			sourceTree = "<group>";
+		};
+		587AD032173DE47800C9C52C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587AD033173DE47800C9C52C /* Bringo-Info.plist */,
+				587AD034173DE47800C9C52C /* InfoPlist.strings */,
+				587AD037173DE47800C9C52C /* main.m */,
+				587AD039173DE47800C9C52C /* Bringo-Prefix.pch */,
+				587AD03D173DE47800C9C52C /* Default.png */,
+				587AD03F173DE47800C9C52C /* Default@2x.png */,
+				587AD041173DE47800C9C52C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587AD063173DE47800C9C52C /* BringoTests */ = {
+			isa = PBXGroup;
+			children = (
+				587AD069173DE47800C9C52C /* BringoTests.h */,
+				587AD06A173DE47800C9C52C /* BringoTests.m */,
+				587AD064173DE47800C9C52C /* Supporting Files */,
+			);
+			path = BringoTests;
+			sourceTree = "<group>";
+		};
+		587AD064173DE47800C9C52C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				587AD065173DE47800C9C52C /* BringoTests-Info.plist */,
+				587AD066173DE47800C9C52C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		587AD0D5173E022000C9C52C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				58F9FCD7175066AE00608D3F /* Icon@2x.png */,
+				58F9FCCD175066A600608D3F /* Icon-72.png */,
+				58F9FCCE175066A600608D3F /* Icon-72@2x.png */,
+				58F9FCCF175066A600608D3F /* Icon-114.png */,
+				58F9FCD0175066A600608D3F /* Icon-Small-50.png */,
+				58F9FCD1175066A600608D3F /* Icon-Small.png */,
+				58F9FCCB1750612300608D3F /* Icon.png */,
+				587199461746F49D0090D6A4 /* twitter.png */,
+				587199441746F4370090D6A4 /* facebook.png */,
+				58BDCF2A17447E9400F10629 /* square2.png */,
+				58BDCF2817447E0A00F10629 /* square1.png */,
+				5821F2131743509A002F1C54 /* tphoto.png */,
+				5821F21117434EBD002F1C54 /* mphoto.jpg */,
+				58188E421742F126007EF307 /* cube2.png */,
+				5828BA49173F348000E8E660 /* fan8b.png */,
+				5828BA4A173F348000E8E660 /* fan9.png */,
+				5828BA4B173F348000E8E660 /* fan9a.png */,
+				587AD0D9173E2CAE00C9C52C /* 12650188.gif */,
+				587AD04C173DE47800C9C52C /* first.png */,
+				587AD04E173DE47800C9C52C /* first@2x.png */,
+				587AD053173DE47800C9C52C /* second.png */,
+				587AD055173DE47800C9C52C /* second@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5892DBAD174A879D0033E01B /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				58188E46174310C6007EF307 /* FacebookAppCell.h */,
+				58188E47174310C6007EF307 /* FacebookAppCell.m */,
+				5871993B1746C8410090D6A4 /* FacebookDisplayViewController.h */,
+				5871993C1746C8410090D6A4 /* FacebookDisplayViewController.m */,
+				58BDCF1317440A9C00F10629 /* FacebookPhoto.h */,
+				58BDCF1417440A9C00F10629 /* FacebookPhoto.m */,
+				58188E361742CD32007EF307 /* FacebookViewController.h */,
+				58188E371742CD32007EF307 /* FacebookViewController.m */,
+				5828BA02173EB52600E8E660 /* MainStoryboard_iPhone.storyboard */,
+				5828BA46173F0AA500E8E660 /* TwitterAppCell.h */,
+				5828BA47173F0AA500E8E660 /* TwitterAppCell.m */,
+				584F3D1517416DEB00A93041 /* TwitterDisplayViewController.h */,
+				584F3D1617416DEB00A93041 /* TwitterDisplayViewController.m */,
+				587AD0D6173E025100C9C52C /* TwitterViewController.h */,
+				587AD0D7173E025100C9C52C /* TwitterViewController.m */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		5892DBAE174A87A50033E01B /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				5828BA04173ED7CD00E8E660 /* Photo.h */,
+				5828BA05173ED7CD00E8E660 /* Photo.m */,
+				587AD03A173DE47800C9C52C /* BriAppDelegate.h */,
+				587AD03B173DE47800C9C52C /* BriAppDelegate.m */,
+				58719949174701540090D6A4 /* Global.h */,
+				5871994A174701540090D6A4 /* Global.m */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		587AD027173DE47800C9C52C /* Bringo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587AD06E173DE47800C9C52C /* Build configuration list for PBXNativeTarget "Bringo" */;
+			buildPhases = (
+				587AD024173DE47800C9C52C /* Sources */,
+				587AD025173DE47800C9C52C /* Frameworks */,
+				587AD026173DE47800C9C52C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bringo;
+			productName = Bringo;
+			productReference = 587AD028173DE47800C9C52C /* Bringo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		587AD05B173DE47800C9C52C /* BringoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587AD071173DE47800C9C52C /* Build configuration list for PBXNativeTarget "BringoTests" */;
+			buildPhases = (
+				587AD057173DE47800C9C52C /* Sources */,
+				587AD058173DE47800C9C52C /* Frameworks */,
+				587AD059173DE47800C9C52C /* Resources */,
+				587AD05A173DE47800C9C52C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				587AD062173DE47800C9C52C /* PBXTargetDependency */,
+			);
+			name = BringoTests;
+			productName = BringoTests;
+			productReference = 587AD05C173DE47800C9C52C /* BringoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		587AD020173DE47800C9C52C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Bri;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nehru Sathappan";
+			};
+			buildConfigurationList = 587AD023173DE47800C9C52C /* Build configuration list for PBXProject "Bringo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 587AD01F173DE47800C9C52C;
+			productRefGroup = 587AD029173DE47800C9C52C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				587AD027173DE47800C9C52C /* Bringo */,
+				587AD05B173DE47800C9C52C /* BringoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		587AD026173DE47800C9C52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587AD036173DE47800C9C52C /* InfoPlist.strings in Resources */,
+				587AD03E173DE47800C9C52C /* Default.png in Resources */,
+				587AD040173DE47800C9C52C /* Default@2x.png in Resources */,
+				587AD042173DE47800C9C52C /* Default-568h@2x.png in Resources */,
+				587AD048173DE47800C9C52C /* MainStoryboard_iPad.storyboard in Resources */,
+				587AD04D173DE47800C9C52C /* first.png in Resources */,
+				587AD04F173DE47800C9C52C /* first@2x.png in Resources */,
+				587AD054173DE47800C9C52C /* second.png in Resources */,
+				587AD056173DE47800C9C52C /* second@2x.png in Resources */,
+				587AD0DA173E2CAE00C9C52C /* 12650188.gif in Resources */,
+				5828BA03173EB52600E8E660 /* MainStoryboard_iPhone.storyboard in Resources */,
+				5828BA4C173F348000E8E660 /* fan8b.png in Resources */,
+				5828BA4D173F348000E8E660 /* fan9.png in Resources */,
+				5828BA4E173F348000E8E660 /* fan9a.png in Resources */,
+				58188E431742F126007EF307 /* cube2.png in Resources */,
+				58188E451742F1B5007EF307 /* FacebookSDKResources.bundle in Resources */,
+				5821F21217434EBD002F1C54 /* mphoto.jpg in Resources */,
+				5821F2141743509A002F1C54 /* tphoto.png in Resources */,
+				58BDCF2917447E0A00F10629 /* square1.png in Resources */,
+				58BDCF2B17447E9400F10629 /* square2.png in Resources */,
+				587199451746F4370090D6A4 /* facebook.png in Resources */,
+				587199471746F49D0090D6A4 /* twitter.png in Resources */,
+				58F9FCCC1750612300608D3F /* Icon.png in Resources */,
+				58F9FCD2175066A600608D3F /* Icon-72.png in Resources */,
+				58F9FCD3175066A600608D3F /* Icon-72@2x.png in Resources */,
+				58F9FCD4175066A600608D3F /* Icon-114.png in Resources */,
+				58F9FCD5175066A600608D3F /* Icon-Small-50.png in Resources */,
+				58F9FCD6175066A600608D3F /* Icon-Small.png in Resources */,
+				58F9FCD8175066AE00608D3F /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587AD059173DE47800C9C52C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587AD068173DE47800C9C52C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		587AD05A173DE47800C9C52C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		587AD024173DE47800C9C52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587AD038173DE47800C9C52C /* main.m in Sources */,
+				587AD03C173DE47800C9C52C /* BriAppDelegate.m in Sources */,
+				587AD0D8173E025100C9C52C /* TwitterViewController.m in Sources */,
+				5828BA06173ED7CD00E8E660 /* Photo.m in Sources */,
+				5828BA48173F0AA500E8E660 /* TwitterAppCell.m in Sources */,
+				584F3D1717416DEB00A93041 /* TwitterDisplayViewController.m in Sources */,
+				58188E381742CD32007EF307 /* FacebookViewController.m in Sources */,
+				58188E48174310C6007EF307 /* FacebookAppCell.m in Sources */,
+				58BDCF1517440A9C00F10629 /* FacebookPhoto.m in Sources */,
+				5871993D1746C8410090D6A4 /* FacebookDisplayViewController.m in Sources */,
+				5871994B174701540090D6A4 /* Global.m in Sources */,
+				582EA7841749AC9400DADBDE /* BriTwitterViewController.m in Sources */,
+				582EA7871749B08200DADBDE /* BriFacebookViewController.m in Sources */,
+				582EA78A1749C3FD00DADBDE /* BriTwitterTableViewCell.m in Sources */,
+				582EA78D1749E62A00DADBDE /* TwitteriPadDetailViewController.m in Sources */,
+				5892DBB4174AA2E90033E01B /* FacebookiPadDetailViewController.m in Sources */,
+				5892DBB7174AA8B30033E01B /* BriFacebookTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		587AD057173DE47800C9C52C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587AD06B173DE47800C9C52C /* BringoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		587AD062173DE47800C9C52C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 587AD027173DE47800C9C52C /* Bringo */;
+			targetProxy = 587AD061173DE47800C9C52C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		587AD034173DE47800C9C52C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587AD035173DE47800C9C52C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		587AD046173DE47800C9C52C /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587AD047173DE47800C9C52C /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		587AD066173DE47800C9C52C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				587AD067173DE47800C9C52C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		587AD06C173DE47800C9C52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		587AD06D173DE47800C9C52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		587AD06F173DE47800C9C52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bringo/Bringo-Prefix.pch";
+				INFOPLIST_FILE = "Bringo/Bringo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		587AD070173DE47800C9C52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Distribution";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Documents/FacebookSDK\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bringo/Bringo-Prefix.pch";
+				INFOPLIST_FILE = "Bringo/Bringo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=*]" = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		587AD072173DE47800C9C52C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bringo.app/Bringo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bringo/Bringo-Prefix.pch";
+				INFOPLIST_FILE = "BringoTests/BringoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		587AD073173DE47800C9C52C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bringo.app/Bringo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Bringo/Bringo-Prefix.pch";
+				INFOPLIST_FILE = "BringoTests/BringoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		587AD023173DE47800C9C52C /* Build configuration list for PBXProject "Bringo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587AD06C173DE47800C9C52C /* Debug */,
+				587AD06D173DE47800C9C52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587AD06E173DE47800C9C52C /* Build configuration list for PBXNativeTarget "Bringo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587AD06F173DE47800C9C52C /* Debug */,
+				587AD070173DE47800C9C52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587AD071173DE47800C9C52C /* Build configuration list for PBXNativeTarget "BringoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587AD072173DE47800C9C52C /* Debug */,
+				587AD073173DE47800C9C52C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 587AD020173DE47800C9C52C /* Project object */;
+}

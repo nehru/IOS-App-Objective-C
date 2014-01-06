@@ -1,0 +1,44 @@
+//
+//  TwitteriPadDetailViewController.m
+//  Bringo
+//
+//  Created by Nehru Sathappan on 5/19/13.
+//  Copyright (c) 2013 Nehru Sathappan. All rights reserved.
+//
+
+#import "TwitteriPadDetailViewController.h"
+
+@interface TwitteriPadDetailViewController ()
+
+@end
+
+@implementation TwitteriPadDetailViewController
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
+}
+
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
+	// Do any additional setup after loading the view.
+    self.displayiPadLabel.text = [self.currentPhoto message];
+    
+    NSURL *url1 = [NSURL URLWithString:[_currentPhoto photoURL]];
+    NSData *data1 = [[NSData alloc ]initWithContentsOfURL:url1];
+    UIImage *image1 = [[UIImage alloc ]initWithData:data1];
+    [self.displayiPadImage setImage:image1];
+}
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end
